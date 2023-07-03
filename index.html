@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="admin_btn">Admin</button>
+    <button id="user_btn">User</button>
+</body>
+</html>
+<script>
+
+let admin_btn = document.getElementById("admin_btn")
+admin_btn.addEventListener("click",()=>{
+    window.location.href = "./Admin/admin.html"
+})
+
+let user_btn = document.getElementById("user_btn")
+user_btn.addEventListener("click",()=>{
+    window.location.href = "./User/user.html"
+})
+
+
+</script>
